@@ -1,0 +1,19 @@
+.hero {
+	background-image: url(https://static.wywrota.pl/pliki/site_images/3b06849a_jpg-lg);
+	background-position: cover;
+	text-align: center;
+	background-size: 400px;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.container {
+	text-align: center;
+	margin: 15px;
+}
+
+body {
+	margin: 0;
+}
+
+

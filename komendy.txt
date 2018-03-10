@@ -1,3 +1,6 @@
+nu-html-checker -a index.html
+nu-html-checker -f index.html
+
 
 autoprefixer-cli -o main.prefixed.css main.css
 
