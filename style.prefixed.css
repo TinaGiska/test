@@ -3,6 +3,7 @@
 	background-position: cover;
 	text-align: center;
 	background-size: 400px;
+	display: -ms-flexbox;
 	display: flex;
 }
 
