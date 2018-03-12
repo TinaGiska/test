@@ -1,0 +1,85 @@
+body {
+	background-color: black;
+	color: lightgreen;
+	margin: 0;
+}
+
+.container {
+	display: -webkit-flex;
+	display: flex;
+	justify-content: flex-end;
+	background-color: #1D1D29;
+	color: #6C1926;
+}
+
+.container ul {
+	display: -webkit-flex;
+	display: flex;
+}
+
+.container ul > li {
+	display: -webkit-flex;
+	display: flex;
+	margin: 15px;
+}
+
+.hero {
+	display: -webkit-flex;
+	display: flex;	
+	align-items: center;
+	justify-content: center;
+	background-image: 
+url(https://images.pexels.com/photos/573263/pexels-photo-573263.jpeg?h=350&auto=compress&cs=tinysrgb);
+	background-size: 100% 100%;
+	height: 100vh;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.gallery {
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.gallery img {
+	width: 400px;
+	height: 400px;
+	margin: 10px;
+}
+
+.button {
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+	
+.button button {
+	width: 200px;
+	height: 200px;
+	border-radius: 70%;
+	border: none;
+	margin: 15px;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer {
+	display: -webkit-flex;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 60px;	
+}
+
+.company {
+	flex-grow: 2;
+	text-align: center;
+	}
+
+.address {
+	text-align: center;	
+}
+
